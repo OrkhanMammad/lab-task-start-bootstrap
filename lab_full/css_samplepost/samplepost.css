@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#navbar{
+    width: 100%;
+    position: fixed;
+}
+.navbarleft{
+    float: left;
+    margin-top: 35px;
+    margin-left: 170px;
+}
+.navbarleft a{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+    
+    
+    
+}
+.navbarright{
+    float: right;
+    margin-top: 35px;
+    margin-right: 170px;
+}
+.navbarright a{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin-left: 18px;
+
+}
+#first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/post-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 12.5rem;
+    padding-bottom: 12.5rem;
+    
+}
+#first h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 0.3rem;
+    margin: 0 auto;
+    
+    
+}
+#first h2{
+    font-size: 1.875rem;
+    color: white;
+    font-weight: 700;
+    margin: 0.75rem 0 2rem;
+    line-height: 1.1;
+}
+#first span{
+    font-size: 1.4rem;
+    line-height: 1.1rem;
+    color: white;
+}
+#first span a{
+    color: white;
+}
+
+.firstfst{
+    width: 40%;
+    margin: 0 auto;
+}
+.second p{
+    margin: 2rem 0;
+    font-size: 1.25rem;
+    color: #495057;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+.second{
+    width: 40%;
+    margin: 0 auto;
+}
+.second h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 3.75rem;
+}
+.second img{
+    width: 100%;
+}
+.imgbox{
+    text-align: center;
+}
+.imgbox span{
+    font-size: 15px;
+    color: #6c757d;
+    font-style: italic;
+}
+.second a{
+    text-decoration: underline;
+    color: black;
+}
+.footericons{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.footer a{
+    padding: 10px;
+}
+.footer p{
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #6c757d;
+}

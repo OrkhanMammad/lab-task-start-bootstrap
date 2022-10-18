@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#navbar{
+    width: 100%;
+    position: fixed;
+}
+.navbarleft{
+    float: left;
+    margin-top: 35px;
+    margin-left: 170px;
+}
+.navbarleft a{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+    
+    
+    
+}
+.navbarright{
+    float: right;
+    margin-top: 35px;
+    margin-right: 170px;
+}
+.navbarright a{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin-left: 18px;
+
+}
+#first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/about-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 12.5rem;
+    padding-bottom: 12.5rem;
+    text-align: center;
+}
+#first h1{
+    color: white;
+    font-size: 5.5rem;
+    font-weight: 800;
+    margin-bottom: 0.7rem;
+    
+}
+#first span{
+    font-size: 1.7rem;
+    line-height: 1.1rem;
+    color: white;
+}
+.content{
+    width: 47%;
+    margin: 0 auto;
+    margin-top: 4.5rem;
+}
+.content p{
+    margin: 2.5rem;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    color: #495057;
+    line-height: 30px;
+}
+.footericons{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.footer a{
+    padding: 10px;
+}
+.footer p{
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #6c757d;
+}
